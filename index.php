@@ -17,15 +17,15 @@
                    <span class="glyphicon glyphicon-user"></span>
                  </div>
 <div class="ContentForm">
-		 	<form action="usuario.php" method="GET" name="FormEntrar">
+		 	<form action="validar.php" method="post" name="FormEntrar">
 		 		<div class="input-group input-group-lg">
 				  <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-user"></i></span>
-				   <input type="text" class="form-control" name="user" placeholder="usuario" id="usuario" aria-describedby="sizing-addon1" required>
+				   <input type="text" class="form-control" name="txtusuario" placeholder="usuario" id="usuario" aria-describedby="sizing-addon1" required>
 				</div>
 				<br>
 				<div class="input-group input-group-lg">
 				  <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>
-				  <input type="password" name="password" class="form-control" placeholder="******" aria-describedby="sizing-addon1" required>
+				  <input type="password" name="txtpassword" class="form-control" placeholder="******" aria-describedby="sizing-addon1" required>
 				</div>
 				<br>
 				<button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Entrar</button>
